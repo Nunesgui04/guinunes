@@ -1,0 +1,211 @@
+body, html{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    justify-content: center;
+    margin: 0%;
+    
+
+}
+
+#header{
+    display: flex;
+    font-size: 1.0px;
+}
+
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    margin: 2%;
+    font-size: 30px;
+
+}
+
+.logo{
+    width: 10px;
+    padding: 50px;
+    margin: 10px;
+    justify-content: space-around; 
+    left: 2%;
+    text-align: justify;
+    height: auto;
+
+    
+}
+
+.logoh1{
+    font-size: 3rem;
+    color: aliceblue;
+    
+    
+
+}
+
+style .container{
+    height: 300px;
+    overflow: scroll;
+}
+
+.parallax{
+    background-image: url(imagem/fundo2.avif);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ #menu {
+    font-style:italic;
+    position:relative;
+    font-size:1.0em;
+    margin:0;
+    padding:0;
+}
+#menu li {padding:0; margin:0;}
+#menu li a,  #menu li a:link {
+    font-size:1.2em;
+    color:rgb(255,255,255);
+    text-decoration: none;
+    padding: 0.8em 0 0.8em 1em;
+    display: block;
+    -moz-transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
+#menu li a:hover {
+    color:rgb(255,255,255);
+    background-color:rgba(255,255,255,0.2);
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+figure{
+    display: inline-block;
+}
+
+#carnes{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#margarina{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#grãos{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#temperos{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#doces{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#bebidas{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#higiene{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#verduras{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#frutas{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+#peixes{
+    border: 3px solid rgba(51, 136, 211, 0.4);
+    border-radius: 10px 10px 10px 10px;
+    margin: 8px;
+}
+
+             figcaption{
+                color: rgb(255, 255, 255);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             }
+             .boxx{
+                position:relative;
+                bottom: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgb(0, 0, 0, 0.8);
+                padding: 15px;
+                border-radius: 15px;
+                color: rgb(213, 213, 213);
+                display: contents;
+            }
+            
+            fieldset{
+                border: 3px solid cyan;
+            }
+            
+            legend{
+                border: 1px solid cyan;
+                padding: 10px;
+                text-align: center;
+                background-color: cyan;
+                border-radius: 8px;
+                color: rgb(11, 81, 81);
+            }
+            
+            .inputBox{
+                position: relative;
+            }
+            
+            .inputUser{
+                background: none;
+                border: 2px solid;
+                border-bottom: 1px solid rgb( 0, 255, 255 );
+                outline: none;
+                color: rgb( 0, 255, 255 );
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 2px;
+            }
+            .inputAssunto{
+                background: none;
+                border: 2px solid rgb(0, 255, 255);
+                outline: none;
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 2px;
+                
+            }
+
+             footer{
+                background: -webkit-linear-gradient(rgb(7, 6, 6), rgb(131, 125, 125));
+                color: white;
+                font-size: 2rem;
+             }
